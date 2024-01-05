@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://ofeu0md86umu"]
+[gd_scene load_steps=3 format=3 uid="uid://ofeu0md86umu"]
 
 [ext_resource type="Script" path="res://scenes/main/Region.gd" id="1_na68j"]
+[ext_resource type="Script" path="res://scenes/main/tile.gd" id="2_6x7g3"]
 
 [node name="Main" type="Node2D"]
 
@@ -13,3 +14,10 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 script = ExtResource("1_na68j")
+
+[node name="tile" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("2_6x7g3")
